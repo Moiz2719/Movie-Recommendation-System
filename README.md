@@ -1,6 +1,6 @@
 # Movie Recommendation System | Azure Machine Learning
 
-A documented machine-learning project built in **Microsoft Azure Machine Learning Studio / Azure ML Designer**. The pipeline uses a **Singular Value Decomposition (SVD) recommender** to learn patterns from user–movie ratings and produce predicted ratings or recommendation scores.
+An Azure Machine Learning Designer project that builds and evaluates a movie recommendation workflow using an SVD collaborative-filtering recommender. The pipeline prepares and splits rating data, trains and scores recommendations, evaluates ranking quality, and registers a model. The project report notes that the deployment attempt did not reach a Ready endpoint, so the project does not claim a live recommendation API.
 
 > **Project format:** This repository is a portfolio showcase built from the project report and screenshots. The supplied PDF does not contain the underlying dataset, runnable notebook/source scripts, or serialized model artifact.
 
@@ -16,6 +16,7 @@ A documented machine-learning project built in **Microsoft Azure Machine Learnin
 | Online deployment | Endpoint did not reach `Ready` and was removed during cleanup |
 
 ## Architecture Overview
+
 ```mermaid
 flowchart TD
     A[User–movie rating data] --> B[Join Data]
