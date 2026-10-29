@@ -15,8 +15,7 @@ A documented machine-learning project built in **Microsoft Azure Machine Learnin
 | Model registry | Version 1 registered |
 | Online deployment | Endpoint did not reach `Ready` and was removed during cleanup |
 
-## High-level architecture
-
+## Architecture Overview
 ```mermaid
 flowchart TD
     A[User–movie rating data] --> B[Join Data]
@@ -69,7 +68,7 @@ Movie-Recommendation-System/
 
 ## Report
 
-The source four-page report is included in the downloadable project starter ZIP. Add `Movie_Recommendation_System_Documentation.pdf` to `reports/` from that package to make it available directly in this repository.
+An Azure Machine Learning Designer project that builds and evaluates a movie recommendation workflow using an SVD collaborative-filtering recommender. The pipeline prepares and splits rating data, trains and scores recommendations, evaluates ranking quality, and registers a model. The project report records the deployment attempt did not reach a Ready endpoint, so it does not claim a live recommendation API.
 
 ## Tools and concepts demonstrated
 
