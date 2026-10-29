@@ -1,0 +1,14 @@
+# Local datasets, exports, and model artefacts
+data/
+outputs/
+*.pkl
+*.joblib
+*.onnx
+*.pt
+*.pth
+*.model
+.env
+.venv/
+__pycache__/
+.ipynb_checkpoints/
+.DS_Store
