@@ -45,39 +45,9 @@ flowchart TD
 
 ## Selected project evidence
 
-### 1. Azure ML Designer workflow
-
-**Upper section — data preparation and initial components**
-
-![Azure ML workflow upper section](assets/screenshots/01-workflow-upper.png)
-
-**Lower section — training, scoring, and evaluation components**
-
-![Azure ML workflow lower section](assets/screenshots/02-workflow-lower.png)
-
-### 2. Pipeline execution and model registration
-
-The report shows the parent pipeline and child jobs as Completed.
-
-![Pipeline job history](assets/screenshots/03-pipeline-job-history.png)
-
-![Registered model list](assets/screenshots/04-registered-model-list.png)
-
-### 3. Registered model and deployment status
-
-![Registered model details](assets/screenshots/05-model-details.png)
-
-![Online endpoint status](assets/screenshots/06-endpoint-status.png)
-
-### 4. Model evaluation
-
-The evaluation job is shown as completed in the report.
-
-![Model evaluation details](assets/screenshots/07-model-evaluation.png)
+The supplied report documents eight screenshots covering the Azure ML Designer workflow (upper and lower sections), pipeline job history, registered model list, model details, endpoint status, model evaluation, and the NDCG result. These image files are listed in `assets/screenshots/README.md`; upload them from the project ZIP to display them individually here.
 
 **Recorded NDCG: `0.9639892`**
-
-![NDCG evaluation metric](assets/screenshots/08-ndcg-metric.png)
 
 NDCG (Normalized Discounted Cumulative Gain) evaluates how well relevant items are ranked near the top of a recommendation list. The value above is the result recorded in the project report.
 
@@ -92,21 +62,14 @@ Movie-Recommendation-System/
 │   └── evaluation_and_deployment.md
 ├── assets/
 │   └── screenshots/
-│       ├── 01-workflow-upper.png
-│       ├── 02-workflow-lower.png
-│       ├── 03-pipeline-job-history.png
-│       ├── 04-registered-model-list.png
-│       ├── 05-model-details.png
-│       ├── 06-endpoint-status.png
-│       ├── 07-model-evaluation.png
-│       └── 08-ndcg-metric.png
+│       └── README.md
 └── reports/
-    └── Movie_Recommendation_System_Documentation.pdf
+    └── README.md
 ```
 
 ## Report
 
-The complete four-page report, including the original evidence screenshots, is available at [`reports/Movie_Recommendation_System_Documentation.pdf`](reports/Movie_Recommendation_System_Documentation.pdf).
+The source four-page report is included in the downloadable project starter ZIP. Add `Movie_Recommendation_System_Documentation.pdf` to `reports/` from that package to make it available directly in this repository.
 
 ## Tools and concepts demonstrated
 
